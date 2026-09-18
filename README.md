@@ -2,7 +2,7 @@
 
 ## Entrega desenvolvida — Lache do tio joao
 
-**Integrante(s): Vitor Hugo Cordeiro Antunes Araujo.
+**Integrante(s):** Vitor Hugo Cordeiro Antunes Araujo.
 
 **Domínio escolhido:** o projeto representa o cardápio do Lache do tio joao. `Lanche` é o item individual e `Cardapio` agrupa uma lista desses itens; portanto, o cardápio **tem lanches**, mas não **é um lanche**.
 
@@ -12,7 +12,7 @@ Os projetos implementados estão em `parte1-dart/` e `parte2-flutter/`. A Parte 
 
 | # | Exercício | Arquivo e linha | O que aparece na tela |
 |---|---|---|---|
-| 1 | Entidade principal | `parte1-dart/bin/models/lanche.dart:2` | Bloco `[1]` com nome, categoria, descrição, ano, preço e data |
+| 1 | Entidade principal | `parte1-dart/bin/models/lanche.dart:1` | Bloco `[1]` com nome, categoria, descrição, ano, preço e data |
 | 2 | Herança | `parte1-dart/bin/models/lanche_especial.dart:3` | Bloco `[2]` compara `Lanche.ficha()` e a versão especial |
 | 3 | Composição | `parte1-dart/bin/models/cardapio.dart:8` | Bloco `[3]` lista os lanches do cardápio |
 | 4 | Encapsulamento | `parte1-dart/bin/models/cardapio.dart:14` | Bloco `[4]` e valor do cardápio no topo da lista |
@@ -89,24 +89,9 @@ Antes de entregar, rodem `dart analyze` na Parte 1 e `flutter analyze` na Parte 
 
 Façam commits ao longo do desenvolvimento, e não todos de uma vez na véspera. O histórico do repositório faz parte do que eu observo.
 
-### Tabela de rastreio
+### Tabela de rastreio exigida
 
-O `README.md` do repositório precisa conter esta tabela preenchida. É por ela que a correção é conduzida, e é ela que orienta a apresentação. Sem a tabela, o trabalho não é corrigido.
-
-| # | Exercício | Arquivo e linha | O que aparece na tela |
-|---|---|---|---|
-| 1 | Entidade principal | `parte1-dart/bin/models/livro.dart:5` | Bloco `[1]` do relatório |
-| 2 | Herança | `.../models/livro_digital.dart:8` | Bloco `[2]` do relatório |
-| 3 | Composição | `.../models/estante.dart:12` | Bloco `[3]` do relatório |
-| 4 | Encapsulamento | `.../models/estante.dart:20` | Bloco `[4]` e o total no topo da tela de lista |
-| 5 | Estrutura de tela | `parte2-flutter/lib/screens/home_page.dart:14` | AppBar e corpo da tela inicial |
-| 6 | Cartão | `.../screens/widgets/cartao.dart:9` | Cada item da lista |
-| 7 | Lista | `.../screens/home_page.dart:22` | Lista rolável com seis itens |
-| 8 | Navegação | `.../screens/home_page.dart:30` | Toque no item abre o detalhe |
-| 9 | Formulário | `.../screens/cadastro_page.dart:18` | Tela de cadastro |
-| 10 | Estado | `.../screens/home_page.dart:40` | Item novo na lista e total atualizado |
-
-Os caminhos acima usam um domínio de biblioteca como exemplo. Substituam pelos arquivos e linhas de vocês.
+O enunciado orienta que a correção e a apresentação sejam conduzidas pela tabela. A tabela preenchida com os arquivos reais do domínio `Lache do tio joao` está no início deste README; ela substitui o exemplo de biblioteca apresentado no enunciado.
 
 ## Apresentação
 
