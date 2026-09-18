@@ -2,7 +2,7 @@
 
 ## Entrega desenvolvida — Lache do tio joao
 
-**Integrante(s):** preencha com seu nome (e o nome da dupla, se houver).
+**Integrante(s): Vitor Hugo Cordeiro Antunes Araujo.
 
 **Domínio escolhido:** o projeto representa o cardápio do Lache do tio joao. `Lanche` é o item individual e `Cardapio` agrupa uma lista desses itens; portanto, o cardápio **tem lanches**, mas não **é um lanche**.
 
