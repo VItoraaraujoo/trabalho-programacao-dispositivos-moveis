@@ -1,0 +1,7 @@
+name: main
+description: Parte 1 do trabalho bimestral de Programação para Dispositivos Móveis.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.10.4
