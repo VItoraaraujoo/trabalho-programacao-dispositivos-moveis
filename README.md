@@ -23,3 +23,20 @@ O projeto representa o cardápio do **Lache do tio joao**. A classe `Lanche` rep
 | 9 | Formulário | `parte2-flutter/lib/screens/cadastro_page.dart:108` | Tela de cadastro com três campos |
 | 10 | Estado | `parte2-flutter/lib/screens/home_page.dart:92` | Novo item na lista e total atualizado |
 
+## Como rodar
+
+### Parte 1 — Dart
+
+```bash
+cd parte1-dart
+dart pub get
+dart run
+```
+
+### Parte 2 — Flutter
+
+```bash
+cd parte2-flutter
+flutter pub get
+flutter run
+```
